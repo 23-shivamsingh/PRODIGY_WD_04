@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color:black;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+ 
+.nav-menu ul li {
+  margin: 25px 25px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px 15px;
+  transition: color 0.3s, background-color 0.5s;
+}
+
+.nav-menu ul li a:hover {
+  color:blue;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.nav-header.scrolled {
+  background-color: rgb(76, 76, 218);
+}
+
+main {
+  padding-top: 80px;
+}
+
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin:auto;
+  overflow: hidden;
+}
+
+#home{ 
+  border:  solid black;
+  margin: auto;  
+  padding: 40px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.profile-photo{
+  height: 35vh;
+  width: 35h;
+  border-radius: 50%;
+  justify-items: center;
+}
+
+#about{
+  height:fit-content; /* */
+  margin: 20px 0;
+  border:  solid black;
+  margin: auto;  
+  padding: 40px;
+  font-size: 1.25rem; 
+}
+
+#Skills {
+  height:fit-content; /* */
+  margin: 20px 0; 
+  border:  solid black;
+  margin: auto;  
+  padding: 40px;
+}
+
+#Skills h1 {
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
+}
+
+#Skills ul {
+  list-style-type: disc; 
+  margin: 20px; 
+  padding: 0 20px; 
+}
+
+#Skills li {
+  font-size: 1.25rem; 
+  margin-bottom: 10px; 
+}
+
+#Projects{
+  border: solid black;
+  margin: auto;  
+  padding: 40px;
+  font-size: 1.25rem; 
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+} 
+
+#contact{
+  height:fit-content;
+  margin: 20px 0; 
+  border:  solid black;
+  margin: auto;  
+  padding: 40px;
+}
+
+#contact .contact-icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px; /* Adds horizontal space between images */
+  display: inline-block; /* Keeps the images inline */
+}
+
+#contact a {
+  text-decoration: none; /* Removes underline from links */
+}
+
+
